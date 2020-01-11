@@ -1,0 +1,101 @@
+h1 {
+	font-size: 100px;
+	text-align: center;
+	color: #6C596E;
+	font-family: 'Oswald', sans-serif;
+	font-weight: 700;
+}
+
+.smaller-text {
+	font-size: 50px;
+	font-weight: 400;
+
+}
+
+.header-border {
+	border: pink 2px dotted;
+}
+
+#special {
+	color: pink;
+}
+
+a {
+	color: purple;
+	text-decoration: none;
+	/*code below 👇 makes my link a button*/
+	background-color: lightblue;
+	border: rgba(33,33,33,0) solid 1px;
+	padding: 10px 20px;
+	border-radius: 5px;
+}
+
+p {
+	text-align: center;
+}
+
+.social {
+	font-size: 30px;
+}
+
+li {
+	margin-bottom: 25px;
+}
+
+ul {
+	list-style: none;
+}
+
+img {
+	width: 275px;
+    height: 275px;
+    object-fit: cover;
+/*    border-radius: 50%;
+    margin: auto;
+    display: block;*/
+}
+
+/*.responsive-container {
+	width: 100%;
+	background-color: black;
+}
+
+@media (max-width: 720px) {
+	.responsive-container {
+		background-color: red;
+	}
+}
+
+@media (min-width: 1080px) {
+	.responsive-container {
+		max-width: 800px;
+		margin: 0 auto;
+	}
+}*/
+
+ul {
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.bigger-flex-container {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.flex-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    flex-wrap: wrap;
+    
+}
+
+.square {
+	width: 300px;
+	height: 300px;
+	object-fit: cover;
+}
